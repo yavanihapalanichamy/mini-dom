@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QSN-2</title>
+</head>
+<body>
+    <button id="btn" onclick="display()">Add Hello</button>
+    <h1 id="result"></h1>
+
+    <script>
+        var a=document.getElementById("result")
+        function display(){
+            var b=document.createElement("div")
+            // document.getElementById("result").textContent="Hello";
+            b.textContent="Hello"
+            a.append(b)
+        }
+    </script>
+</body>
+</html>
